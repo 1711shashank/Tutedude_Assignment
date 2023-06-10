@@ -1,9 +1,9 @@
 import React from 'react';
 
 const FormHeader = () => (
-  <div>
+  <div className='form-Head'>
     <h2 className="form-title">Alumni Registration Form </h2>
-    <h3> Register below if you are a new user.</h3>
+    <p className="form-subtitle"> Register below if you are a new user.</p>
   </div>
 );
 
